@@ -38,34 +38,25 @@ PRODUCT_PACKAGES += Chrome
 
 # GMS Mandatory Apps (unbundled)
 PRODUCT_PACKAGES += \
-    Books \
     Drive \
-    Magazines \
     Maps \
-    PlusOne \
     Gmail2 \
     GmsCore \
     Velvet \
-    Music2 \
     PlayGames \
     Street \
     Hangouts \
-    Videos \
     YouTube
 
 # GMS Optional Apps
 PRODUCT_PACKAGES += \
-    VoiceSearchStub \
     DeskClockGoogle \
     FaceLock \
-    GalleryGoogle \
     MediaUploader \
-    VideoEditorGoogle \
     TagGoogle \
     CalendarGoogle \
     OneTimeInitializer \
-    LatinImeGoogle \
-    talkback
+    LatinImeGoogle 
 
 # Include GoogleTTS and TTS languages needed for GoogleTTS
 PRODUCT_PACKAGES += GoogleTTS

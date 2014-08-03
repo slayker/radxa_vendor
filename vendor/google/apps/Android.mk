@@ -183,16 +183,6 @@ include $(BUILD_PREBUILT)
 # GMS Mandatory Apps (published in Play Store)
 ###############################################################################
 include $(CLEAR_VARS)
-LOCAL_MODULE := Books
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
-
-###############################################################################
-include $(CLEAR_VARS)
 LOCAL_MODULE := Drive
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
@@ -204,16 +194,6 @@ LOCAL_REQUIRED_MODULES := libdocscanner_image-v7a \
                           liblinearalloc \
                           libndk1 \
                           librectifier-v7a
-include $(BUILD_PREBUILT)
-
-###############################################################################
-include $(CLEAR_VARS)
-LOCAL_MODULE := Magazines
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
 ###############################################################################
@@ -338,27 +318,6 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
-LOCAL_MODULE := VoiceSearchStub
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
-
-###############################################################################
-include $(CLEAR_VARS)
-LOCAL_MODULE := Music2
-LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := Music
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
-
-###############################################################################
-include $(CLEAR_VARS)
 LOCAL_MODULE := PlayGames
 LOCAL_MODULE_TAGS := optional
 prebuilt_playgames_PRODUCT_AAPT_CONFIG := $(subst $(comma), ,$(PRODUCT_AAPT_CONFIG))
@@ -399,17 +358,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := libvideochat_jni
-include $(BUILD_PREBUILT)
-
-###############################################################################
-include $(CLEAR_VARS)
-LOCAL_MODULE := Videos
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_REQUIRED_MODULES := libWVphoneAPI
 include $(BUILD_PREBUILT)
 
 ###############################################################################
@@ -475,17 +423,6 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
-LOCAL_MODULE := VideoEditorGoogle
-LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES := VideoEditor
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
-
-###############################################################################
-include $(CLEAR_VARS)
 LOCAL_MODULE := TagGoogle
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := Tag
@@ -543,13 +480,4 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := libjni_unbundled_latinimegoogle
 include $(BUILD_PREBUILT)
 
-###############################################################################
-include $(CLEAR_VARS)
-LOCAL_MODULE := talkback
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
-LOCAL_MODULE_CLASS := APPS
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_CERTIFICATE := PRESIGNED
-include $(BUILD_PREBUILT)
 
