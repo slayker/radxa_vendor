@@ -183,6 +183,7 @@ include $(BUILD_PREBUILT)
 # GMS Mandatory Apps (published in Play Store)
 ###############################################################################
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := Books
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
@@ -193,6 +194,8 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+=======
+>>>>>>> parent of 14c9e64... Removed Google apps
 LOCAL_MODULE := Drive
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
@@ -208,6 +211,7 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := Magazines
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
@@ -218,6 +222,8 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+=======
+>>>>>>> parent of 14c9e64... Removed Google apps
 LOCAL_MODULE := Maps
 LOCAL_MODULE_TAGS := optional
 prebuilt_maps_PRODUCT_AAPT_CONFIG := $(subst $(comma), ,$(PRODUCT_AAPT_CONFIG))
@@ -338,6 +344,7 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := VoiceSearchStub
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
@@ -359,6 +366,8 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+=======
+>>>>>>> parent of 14c9e64... Removed Google apps
 LOCAL_MODULE := PlayGames
 LOCAL_MODULE_TAGS := optional
 prebuilt_playgames_PRODUCT_AAPT_CONFIG := $(subst $(comma), ,$(PRODUCT_AAPT_CONFIG))
@@ -403,6 +412,7 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := Videos
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
@@ -414,6 +424,8 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+=======
+>>>>>>> parent of 14c9e64... Removed Google apps
 LOCAL_MODULE := YouTube
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
@@ -475,6 +487,7 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+<<<<<<< HEAD
 LOCAL_MODULE := VideoEditorGoogle
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := VideoEditor
@@ -486,6 +499,8 @@ include $(BUILD_PREBUILT)
 
 ###############################################################################
 include $(CLEAR_VARS)
+=======
+>>>>>>> parent of 14c9e64... Removed Google apps
 LOCAL_MODULE := TagGoogle
 LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := Tag
@@ -543,6 +558,7 @@ LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_REQUIRED_MODULES := libjni_unbundled_latinimegoogle
 include $(BUILD_PREBUILT)
 
+<<<<<<< HEAD
 ###############################################################################
 include $(CLEAR_VARS)
 LOCAL_MODULE := talkback
@@ -552,4 +568,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
+=======
+>>>>>>> parent of 14c9e64... Removed Google apps
 

@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += Chrome
 
 # GMS Mandatory Apps (unbundled)
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     Books \
     Drive \
     Magazines \
@@ -51,10 +52,21 @@ PRODUCT_PACKAGES += \
     Street \
     Hangouts \
     Videos \
+=======
+    Drive \
+    Maps \
+    Gmail2 \
+    GmsCore \
+    Velvet \
+    PlayGames \
+    Street \
+    Hangouts \
+>>>>>>> parent of 14c9e64... Removed Google apps
     YouTube
 
 # GMS Optional Apps
 PRODUCT_PACKAGES += \
+<<<<<<< HEAD
     VoiceSearchStub \
     DeskClockGoogle \
     FaceLock \
@@ -66,6 +78,15 @@ PRODUCT_PACKAGES += \
     OneTimeInitializer \
     LatinImeGoogle \
     talkback
+=======
+    DeskClockGoogle \
+    FaceLock \
+    MediaUploader \
+    TagGoogle \
+    CalendarGoogle \
+    OneTimeInitializer \
+    LatinImeGoogle 
+>>>>>>> parent of 14c9e64... Removed Google apps
 
 # Include GoogleTTS and TTS languages needed for GoogleTTS
 PRODUCT_PACKAGES += GoogleTTS
